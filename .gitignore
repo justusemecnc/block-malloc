@@ -1,7 +1,7 @@
 *.o
 *.obj
 *.exe
-test
+block_malloc_test
 .vs/
 *.ilk
 *.pdb

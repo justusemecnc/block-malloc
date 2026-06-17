@@ -3,10 +3,10 @@ CFLAGS = -Wall -Wextra -std=c11
 LDFLAGS =
 
 ifeq ($(OS),Windows_NT)
-    EXE = test.exe
+    EXE = block_malloc_test.exe
     RM = del /Q
 else
-    EXE = test
+    EXE = block_malloc_test
     RM = rm -f
 endif
 
